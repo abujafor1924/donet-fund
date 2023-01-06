@@ -1,0 +1,272 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(170, 168, 168);
+}
+
+/* Heder section  start*/
+.main-content {
+  background: linear-gradient(rgba(56, 55, 56, 0.575), rgba(28, 27, 27, 0.575)),
+    url(img/donation1.jpg);
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 85vh;
+}
+
+.had {
+  margin: 150px 300px;
+  text-align: justify;
+}
+.had h1 {
+  font-weight: 900;
+  font-size: 45px;
+  align-items: center;
+
+  color: #ffff;
+}
+.had p {
+  color: #ffff;
+  margin-top: 20px;
+  display: inline-block;
+}
+.had button {
+  margin-left: 240px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #ff5959;
+  font-size: 20px;
+  color: #ffff;
+}
+/* Heder section  end*/
+/* main section start */
+.donet-section {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.donet-area {
+  margin: 200px 250px;
+}
+.donet-area h1 {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 35px;
+  margin-left: 250px;
+}
+.donet-area p {
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #707070;
+  margin-left: 100px;
+}
+.donet-area ul {
+  display: flex;
+}
+.donet-area ul li {
+  list-style-type: none;
+  margin-right: 50px;
+  font-weight: 800;
+  font-size: 45px;
+  color: #707070;
+}
+.border {
+  border: 1px solid #ff5959;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ff5959;
+}
+.donet-area h3 {
+  color: #707070d1;
+  margin-left: 270px;
+  margin-top: 30px;
+}
+.line {
+  border-top: 1px solid #707070;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.donet-area button {
+  margin-left: 270px;
+  margin-top: 20px;
+  background-color: #ff5959;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 450;
+  font-size: 20px;
+  color: #ffff;
+}
+
+/* main section end */
+/* Our Donate Plan  */
+.donante-plan {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.donate-area {
+  align-items: center;
+}
+.donate-area h1 {
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 45px;
+}
+.donate-area p {
+  margin: 20px 300px;
+  color: #707070;
+}
+.distribute {
+  display: flex;
+  margin: 100px 0 30px 200px;
+}
+.section-area {
+  width: 250px;
+  margin-left: 30px;
+}
+.section-area img {
+  width: 35px;
+  height: 30px;
+}
+.section-area h1 {
+  text-align: center;
+}
+.section-area p {
+  margin: 0;
+}
+/* Our Donate Plan  */
+/*depend-section */
+.depend-section {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.depend-area {
+  display: flex;
+  margin-top: 100px;
+}
+.depend-left {
+  margin: 0 50px 0 230px;
+  width: 350px;
+}
+.depend-left h1 {
+  margin: 20px 0 20px 0;
+  font-weight: 800;
+  font-size: 35px;
+}
+.depend-left button {
+  color: #f7f6f6;
+  background-color: #ff5959;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.depend-left p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #707070;
+}
+.depend-right {
+  float: right;
+  margin-bottom: 30px;
+}
+.depend-right img {
+  width: 400px;
+  height: 500px;
+  border-radius: 4px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+/*depend-section */
+/* update saction */
+.update-section {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.update-area {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.update-area h1 {
+  font-weight: 600;
+  font-size: 35px;
+  margin: 0 0 40px 100px;
+}
+.update-area p {
+  text-align: justify;
+  color: #707070;
+}
+.input-area {
+  margin: 100px 0 80px 60px;
+}
+.input-area input {
+  padding: 10px 50px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #70707077;
+  margin-right: -3px;
+}
+.input-area button {
+  padding: 10px 30px;
+  color: #ffffff;
+  border: 0;
+  background: #ff5959;
+  border-radius: 0 5px 5px 0;
+  margin-left: 0;
+}
+/* update saction */
+/* footer */
+.footer {
+  background-color: #0b0d17;
+  background-size: cover;
+  width: 1200px;
+  overflow: hidden;
+  height: 130px;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.footer-section {
+  margin-top: 50px;
+}
+.footer-section h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+  font-size: 30px;
+  color: transparent;
+  background-image: url(https://media.giphy.com/media/WrHrrwqxCTTb7uKQQX/giphy.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+}
+/* footer */
